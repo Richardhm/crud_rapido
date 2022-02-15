@@ -6,6 +6,33 @@ Utilizei o laravel/ui -> [laravelui](https://github.com/laravel/ui)
 
 php artisan migrate: cria as tabelas(defaults) + tabela products(Aqui Crud)
 
+### Validação dos campos do Formulario de products(create e update):
+
+<table>
+    <thead>
+        <th>Nome</th>
+        <th>Validação</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td>name</td>
+            <td>required|unique:products|min:3</td>
+        </tr>    
+        <tr>
+            <td>description</td>
+            <td>required|unique:products|min:3</td>
+        </tr>  
+        <tr>
+            <td>price</td>
+            <td>required</td>
+        </tr> 
+        <tr>
+            <td>stock</td>
+            <td>required|integer</td>
+        </tr>    
+    </tbody>    
+</table>    
+
 ### Passos
 1. composer install
 2. npm i
