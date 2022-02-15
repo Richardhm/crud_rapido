@@ -65,4 +65,4 @@ php artisan migrate: cria as tabelas(defaults) + tabela products(Aqui Crud)
 </div>
 <hr />    
 
-OBS: Despois do 3º registro cadastrado vai ocorrer paginação.
+OBS: Despois do 3º registro cadastrado, vai ocorrer paginação.
