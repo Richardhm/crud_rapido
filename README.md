@@ -6,6 +6,7 @@ Utilizei o laravel/ui -> [laravelui](https://github.com/laravel/ui)
 
 php artisan migrate: cria as tabelas(defaults) + tabela products(Aqui Crud)
 
+### Passos
 1. composer install
 2. npm i
 3. Criar BD: kinterativa 
