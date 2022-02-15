@@ -10,7 +10,8 @@ php artisan migrate: cria as tabelas(defaults) + tabela products(Aqui Crud)
 1. composer install
 2. npm i
 3. Criar BD: kinterativa 
-4. php artisan serve
+4. php artisan migrate
+5. php artisan serve
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/12189352/154075440-24dcaebe-3209-45da-9824-f65358523ab9.jpg" width="500px"/>
