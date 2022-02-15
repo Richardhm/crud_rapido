@@ -20,7 +20,7 @@ php artisan migrate: cria as tabelas(defaults) + tabela products(Aqui Crud)
         </tr>    
         <tr>
             <td>description</td>
-            <td>required|unique:products|min:3</td>
+            <td>required|max:200</td>
         </tr>  
         <tr>
             <td>price</td>
